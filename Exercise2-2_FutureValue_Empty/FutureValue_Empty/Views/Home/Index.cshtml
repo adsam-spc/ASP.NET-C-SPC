@@ -1,0 +1,36 @@
+@model FutureValue_Empty.Models.FutureValueModel
+@{
+    ViewData["Title"] = "Future Value Calculator";
+}
+
+<h1>Future Value Calculator</h1>
+
+<form asp-action="Index" method="post">
+    <div asp-validation-summary="All"></div>
+
+    <div>
+        <label asp-for="MonthlyInvestment">Monthly Investment:</label>
+        <input asp-for="MonthlyInvestment" />
+        <span asp-validation-for="MonthlyInvestment"></span>
+    </div>
+
+    <div>
+        <label asp-for="YearlyInterestRate">Yearly Interest Rate:</label>
+        <input asp-for="YearlyInterestRate" />
+        <span asp-validation-for="YearlyInterestRate"></span>
+    </div>
+
+    <div>
+        <label asp-for="Years">Number of Years:</label>
+        <input asp-for="Years" />
+        <span asp-validation-for="Years"></span>
+    </div>
+
+    <div>
+        <label>Future Value:</label>
+        <input value="@ViewBag.FV.ToString("C2")" readonly />
+    </div>
+
+    <button type="submit">Calculate</button>
+    <a asp-action="Index">Clear</a>
+</form>
