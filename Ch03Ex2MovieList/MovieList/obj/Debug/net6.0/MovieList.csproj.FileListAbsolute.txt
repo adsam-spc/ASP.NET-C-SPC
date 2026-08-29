@@ -68,3 +68,4 @@ C:\Users\adsam\Desktop\Learning\SPC\2026\Fall\COP 2839\repo\Ch03Ex2MovieList\Mov
 C:\Users\adsam\Desktop\Learning\SPC\2026\Fall\COP 2839\repo\Ch03Ex2MovieList\MovieList\obj\Debug\net6.0\MovieList.pdb
 C:\Users\adsam\Desktop\Learning\SPC\2026\Fall\COP 2839\repo\Ch03Ex2MovieList\MovieList\obj\Debug\net6.0\MovieList.genruntimeconfig.cache
 C:\Users\adsam\Desktop\Learning\SPC\2026\Fall\COP 2839\repo\Ch03Ex2MovieList\MovieList\obj\Debug\net6.0\ref\MovieList.dll
+C:\Users\adsam\Desktop\Learning\SPC\2026\Fall\COP 2839\repo\Ch03Ex2MovieList\MovieList\obj\Debug\net6.0\MovieList.sourcelink.json
